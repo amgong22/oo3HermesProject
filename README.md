@@ -6,6 +6,8 @@ Team Hermes' Proposal
 
 Members: Rudd Antony, David Dimapilis, Aidan Ong
 
+Team Leader: Aidan Ong
+
 Project Title: Educational Typing System (TypeCraft)
 
 SDG 4: Quality Education
