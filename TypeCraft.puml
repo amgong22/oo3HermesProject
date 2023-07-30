@@ -1,0 +1,59 @@
+@startuml
+
+class Main {
+    -stg: Stage
+    +start(primaryStage: Stage): void
+    +changeScene(fxml: String): void
+    +main(args: String[]): void
+}
+
+class Controller {
+    -timeLabel: Label
+    -displayUsername: Label
+    -total: Text
+    -wpm: Text
+    -invalid: Text
+    +initialize(url: URL, resourceBundle: ResourceBundle): void
+    +playGame(ddd: ActionEvent): void
+}
+
+class FileHandling {
+    +getLastModified(directoryFilePath: String): File
+    +sumUpNumbers(directoryFilePath: String): int[]
+}
+
+class GameController {
+    -wordCounter: int
+    -first: int
+    -saveData: File
+    -executor: ScheduledExecutorService
+    -seconds: Text
+    -wordsPerMin: Text
+    -accuracy: Text
+    -programWord: Text
+    -secondProgramWord: Text
+    -userWord: TextField
+    -correct: ImageView
+    -wrong: ImageView
+    -playAgain: Button
+    -words: ArrayList<String>
+    +addToList(): void
+    +toMainMenu(ae: ActionEvent): void
+    +initialize(url: URL, resourceBundle: ResourceBundle): void
+    +startGame(ke: KeyEvent): void
+}
+
+class PopupController {
+    -username: TextField
+    +submit(ae: ActionEvent): void
+}
+
+Main --> GameController
+Main --> PopupController
+Main "1" *-- "1" FileHandling
+Controller --> Main
+Controller "1" *-- "1" FileHandling
+GameController --> Main
+PopupController --> Main
+
+@enduml
