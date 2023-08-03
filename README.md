@@ -25,3 +25,5 @@ Customizable Lessons: TypeCraft allows teachers and educators to create and cust
 Engagement and Gamified Interface: TypeCraft provides an engaging and gamified interface that motivates students to continue practicing and progressing. It includes interactive elements, rewards, achievements, and progress tracking, making the learning experience enjoyable and immersive.
 
 Optimization of Time: TypeCraft is designed to optimize the learning process by utilizing efficient techniques that help students learn and improve typing skills in less time. It employs effective exercises, targeted practice, and adaptive learning algorithms to maximize the learning outcome within a shorter duration.
+
+Team Hermes Video Presentation:
