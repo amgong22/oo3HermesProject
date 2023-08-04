@@ -26,4 +26,4 @@ Engagement and Gamified Interface: TypeCraft provides an engaging and gamified i
 
 Optimization of Time: TypeCraft is designed to optimize the learning process by utilizing efficient techniques that help students learn and improve typing skills in less time. It employs effective exercises, targeted practice, and adaptive learning algorithms to maximize the learning outcome within a shorter duration.
 
-Team Hermes Video Presentation:
+Team Hermes Video Presentation: https://youtu.be/_qQehHCPwxA
